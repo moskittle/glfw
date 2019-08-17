@@ -24,7 +24,7 @@ project "GLFW"
         staticruntime "On"
 
         files{
-            "src/win32.init.c",
+            "src/win32_init.c",
             "src/win32_joystick.c",
             "src/win32_time.c",
             "src/win32_thread.c",
